@@ -22,8 +22,14 @@ Construyo y audito sistemas de trading para índices, divisas y cripto con un en
 3. Primero **robustez y riesgo**, después rentabilidad.
 4. Congelar el sistema mientras se mide; cambiar solo con evidencia y por escrito.
 
-### 📂 Repositorios
-Los proyectos de trading son **privados**. Aquí publicaré trabajos de programación y análisis de datos que se puedan compartir.
+### 📂 Investigación publicada
+Los sistemas de trading son **privados**, pero comparto el método y lo que aprendo, sobre todo las ideas que **no** sobreviven a una auditoría:
+- [Metodología: cómo pruebo una idea antes de arriesgar dinero](investigacion/metodologia.md)
+- [Caso 1 · La "alta confirmación" que no lo era](investigacion/caso_alta_confirmacion.md)
+- [Caso 2 · El indicador que miraba el futuro](investigacion/caso_rsi_mira_adelante.md)
+- [Riesgo en una cuenta pequeña: qué esperar antes de empezar](investigacion/riesgo_cuenta_pequena.md)
+- [Mi equipo de agentes de IA](investigacion/sistema_agentes.md)
+- [Resultados en cuentas demo, con sus límites](investigacion/resultados_demo.md)
 
 ---
 
