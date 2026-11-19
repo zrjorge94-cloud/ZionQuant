@@ -30,6 +30,7 @@ Los sistemas de trading son **privados**, pero comparto el método y lo que apre
 - [Riesgo en una cuenta pequeña: qué esperar antes de empezar](investigacion/riesgo_cuenta_pequena.md)
 - [Mi equipo de agentes de IA](investigacion/sistema_agentes.md)
 - [Resultados en cuentas demo, con sus límites](investigacion/resultados_demo.md)
+- [Bitácora semanal de forward testing](bitacora/README.md) · cuentas verificadas en Myfxbook
 
 ---
 
