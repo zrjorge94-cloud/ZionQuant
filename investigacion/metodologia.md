@@ -24,7 +24,19 @@ Si pruebo 50 variantes, alguna saldrá "significativa" por azar. Corrijo por el 
 Cada dato tiene que existir **en el momento de entrar**: la última vela *cerrada*, no la que está en curso. Es el error más común y el más caro (ver el [caso 2](caso_rsi_mira_adelante.md)).
 
 ## 8. Auditoría independiente
-El auditor rehace los cálculos y da un veredicto: **APTO / CON RESERVAS / NO APTO**. Nada se aplica a dinero real sin ese paso.
+El auditor rehace los cálculos y da un veredicto: **APTO / CON RESERVAS / NO APTO**. Ese veredicto es el criterio con el que decido qué va a dinero real, pero **no siempre se cumple**. Cuando decido operar en real algo que no tiene veredicto APTO, lo trato como una **excepción**: la dejo escrita con fecha, motivo y riesgo asumido, y la publico.
+
+**Estado a 25-nov-2026 (cuenta real pequeña, 3 sistemas):**
+
+| Sistema | Situación |
+|---|---|
+| Uno | APTO CON RESERVAS |
+| Otro | Calificado como «solo forward / validación adicional». Pasó a real por decisión propia, para validar su ejecución con el lote más pequeño posible |
+| El tercero | Todavía sin auditoría formal de sobreajuste |
+
+Los tres son excepciones parciales a mi propia regla. Las asumo sabiendo que la cuenta es pequeña y que su objetivo es validar la ejecución en real, no crecer.
 
 ## 9. Congelar y medir en vivo
-Lo que pasa a operación se congela durante meses: nada de retocar parámetros por una mala racha. En vivo se compara lo esperado con lo real, módulo a módulo.
+Lo que pasa a operación se congela: nada de retocar parámetros por una mala racha. La congelación actual dura **hasta el 14-feb-2027**. En vivo comparo lo esperado con lo real, módulo a módulo.
+
+**Excepción registrada:** el 21-nov-2026 cambié qué módulos operan en la cuenta real, antes de empezar a operar con sistemas en ella. Cualquier otra excepción tiene que quedar escrita y con fecha antes de aplicarse.
