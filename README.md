@@ -7,18 +7,15 @@ Construyo y audito sistemas de trading para índices, divisas y cripto con un en
 ---
 
 ### 🔬 En qué trabajo
-- **Investigación de la apertura de Nueva York** en el Nasdaq 100: impulso de apertura, flujo de órdenes (ticks), contexto de premercado y regímenes de volatilidad.
-- **Sistemas algorítmicos en MetaTrader 5** (MQL5): asesores expertos con gestión de riesgo por operación, filtros de calendario (FOMC, festivos) y registro completo para auditoría.
+- **Investigación cuantitativa sobre índices**: comportamiento intradía, microestructura y regímenes de volatilidad.
+- **Sistemas algorítmicos en MetaTrader 5** (MQL5): asesores expertos con gestión de riesgo y registro completo para auditoría.
 - **Validación estadística**: walk-forward, muestras de validación y *holdout*, bootstrap, tests de permutación, *monkey tests*, análisis de sensibilidad a costes y prueba entre brókers.
 - **Gestión de riesgo de portafolio**: correlación entre módulos, riesgo agregado diario, Monte Carlo de caídas y riesgo de ruina, reglas para cuentas de fondeo.
 - **Herramientas para el trader manual**: paneles de checklist en MT5 que reproducen al 100 % las señales de los sistemas.
 
 ### 🎓 Material educativo gratuito
-Clases para quien empieza, con datos reales del Nasdaq 100 desde 2018 y sin parámetros de sistemas en uso:
-- 📄 [Clase en PDF: estrategias de apertura del Nasdaq](ensenanza/clase-estrategias-apertura-nasdaq.pdf)
-- 🎬 [Clase animada completa (6:47)](ensenanza/clase-animada-apertura-nasdaq.mp4) · [versión sencilla (6:00)](ensenanza/clase-video-apertura-nasdaq.mp4)
-- 📈 [La ruptura del rango de apertura, en un día real](ensenanza/ruptura-rango-apertura.mp4)
-- 📱 [Serie corta para TikTok](ensenanza/tiktok-01-el-nasdaq-avisa.mp4) · todo el material en [ensenanza/](ensenanza/README.md)
+Una clase conceptual para quien empieza. No describe las reglas de ningún sistema en uso.
+- 📄 [Clase en PDF: la apertura del Nasdaq, riesgo y cómo comprobar una idea](ensenanza/clase-estrategias-apertura-nasdaq.pdf)
 
 ### 🧰 Herramientas
 `Python` · `pandas` · `NumPy` · `matplotlib` · `ffmpeg` · `MQL5 / MetaTrader 5` · `PowerShell` · `Notion` · `Git`

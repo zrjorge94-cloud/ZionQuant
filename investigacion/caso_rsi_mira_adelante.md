@@ -1,14 +1,14 @@
 # Caso 2 · El indicador que miraba el futuro
 
-**El hallazgo inicial:** las señales con el RSI de 1 hora "en contra" perdían de media −0,11 R por operación. Parecía un filtro perfecto para *no entrar*.
+**El hallazgo inicial:** las señales con un indicador de un marco temporal mayor "en contra" perdían de media −0,11 R por operación. Parecía un filtro perfecto para *no entrar*.
 
 ## El error
-La entrada era a las 9:30, pero el RSI se calculaba con la vela de 1 hora de las 9:00, **que cierra a las 9:59**. Es decir, usaba 30 minutos de precio que todavía no existían al entrar. El mismo fallo afectaba a otros dos indicadores del estudio (una media móvil de 3 horas y el ADX).
+El indicador se calculaba con una vela de un marco mayor que **todavía no había cerrado** en el momento de entrar. Es decir, usaba precio que aún no existía. El mismo fallo afectaba a otros indicadores del estudio.
 
 ## Con los datos bien medidos
 Usando la **última vela cerrada antes de la entrada**:
 
-| | Con el RSI "en contra" | Resto |
+| | Con el indicador "en contra" | Resto |
 |---|---|---|
 | Resultado medio | **+0,14 R/op** | +0,24 R/op |
 | ¿Gana al azar? | No (p = 0,12; 11 variantes probadas) | — |

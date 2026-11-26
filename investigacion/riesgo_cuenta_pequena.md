@@ -3,8 +3,8 @@
 > **Fecha de corte: 25-nov-2026.** Esta versión sustituye a la del 18-nov-2026, que describía una configuración anterior (5 módulos) y ya no está vigente. Esa versión sigue en el historial de Git; sus cifras no se volvieron a reproducir en esta revisión.
 
 ## Qué configuración describe
-Una cuenta real pequeña (capital inicial de unos 51 USD) con **3 sistemas de apertura del Nasdaq**, desde el 21-nov-2026.
-- El lote varía según el sistema, entre 0,01 y 0,03.
+Una cuenta real pequeña (capital inicial de unos 51 USD) con **3 sistemas automatizados**, desde el 21-nov-2026.
+- El tamaño de cada posición depende del sistema.
 - Los sistemas y sus parámetros son privados.
 
 ## Riesgo de una operación (no es el riesgo total)
